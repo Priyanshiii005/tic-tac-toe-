@@ -19,6 +19,8 @@ body{
 .game{
     height: 60vmin;
     width: 60vmin;
+    display: grid;
+    grid-template-colums: repeat(3,1fr);
     justify-content: center;
     align-items: center;
     gap: 1.5vmin;
@@ -76,3 +78,4 @@ body{
 .hide{
     display: none;
 }
+
